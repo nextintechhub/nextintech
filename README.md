@@ -1,8 +1,22 @@
-<h4 align="justify">⚕️We are pleased to introduce Next Innovation Technology (NIT), a youth-led IT company founded in 2025 with the vision to innovate, inspire, and transform the digital landscape. Under the leadership of our CEO, Mr. Bibek Kandel, our mission is to deliver creative and impactful technology solutions that drive growth and empower businesses. Next Innovation Technology (NIT) is a youth-led IT company driven by the mission to innovate, inspire, and transform the digital world. Based on professionalism, transparency, and dedication, NIT delivers impactful solutions with long-term value. At NIT, we believe that technology is more than just tools – it is a bridge to opportunities, growth, and community empowerment. With a passionate team of developers, designers, cybersecurity experts, and innovators, we are dedicated to delivering high-quality, secure, and sustainable solutions that make a difference. Whether it’s software development, web & app design, digital branding, cybersecurity, or IT training, we work with passion, integrity, and commitment to excellence.<br><br>Together, we are not just building projects — we are building the future of innovation. 🚀<br><br>👥 Our Team – Next Innovation Technology (NIT): <br><br>
-Mr. Bibek Kandel – CEO & Founder, <br>
+<h4 align="justify">
+⚕️ We are proud to introduce <strong>Next Innovation Technology (NIT)</strong>, a dynamic, youth-led IT company established in 2025 with a vision to innovate, inspire, and transform the digital landscape. Under the guidance of our CEO, <strong>Mr. Bibek Kandel</strong>, NIT is committed to delivering technology solutions that drive growth, empower businesses, and create meaningful impact.  
 
-Mr. Jainul Aliabden – Founder, <br> </h4>
+At NIT, we combine creativity, technical expertise, and strategic insight to offer comprehensive solutions across software development, web and mobile applications, digital branding, cybersecurity, and IT training. Our approach is grounded in professionalism, transparency, and a dedication to delivering long-term value.  
 
+We believe technology is more than just a set of tools – it is a bridge to new opportunities, growth, and community empowerment. Our team of skilled developers, designers, cybersecurity specialists, and innovators works collaboratively to create high-quality, secure, and sustainable solutions tailored to meet our clients’ unique needs.  
+
+In addition to client-focused services, NIT actively engages in research and development, exploring emerging technologies such as artificial intelligence, cloud computing, and blockchain, ensuring that our solutions remain cutting-edge and future-ready.  
+
+Whether designing robust enterprise applications, crafting engaging digital experiences, or providing professional IT training, we approach every project with integrity, passion, and a commitment to excellence.  
+
+Together, we are not just building projects — we are shaping the future of innovation. 🚀  
+
+👥 <strong>Our Leadership Team – Next Innovation Technology (NIT):</strong><br>
+- <strong>Mr. Bibek Kandel</strong> – CEO & Founder,<br>
+- <strong>Mr. Jainul Aliabden</strong> – Founder,<br>
+- <strong>Ms. Sumi Shahi</strong> – Head of Content Creator,<br>
+- <strong>Ms. Unnati Lamichhane</strong> – Head of Content Creator<br>
+</h4>
 
 <p>   </p>
 
