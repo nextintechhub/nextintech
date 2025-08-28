@@ -1,10 +1,10 @@
 <h5 align="justify"> ⚕️ We are proud to introduce <strong>Next Innovation Technology (NIT)</strong>, a dynamic, youth-led IT company established in 2025 with a vision to innovate, inspire, and transform the digital landscape. Under the guidance of our CEO, <strong>Mr. Bibek Kandel</strong>, NIT is committed to delivering technology solutions that drive growth, empower businesses, and create meaningful impact. At NIT, we combine creativity, technical expertise, and strategic insight to offer comprehensive solutions across software development, web and mobile applications, digital branding, cybersecurity, and IT training. Our approach is grounded in professionalism, transparency, and a dedication to delivering long-term value. We believe technology is more than just a set of tools – it is a bridge to new opportunities, growth, and community empowerment. Our team of skilled developers, designers, cybersecurity specialists, and innovators works collaboratively to create high-quality, secure, and sustainable solutions tailored to meet our clients’ unique needs. In addition to client-focused services, NIT actively engages in research and development, exploring emerging technologies such as artificial intelligence, cloud computing, and blockchain, ensuring that our solutions remain cutting-edge and future-ready. Whether designing robust enterprise applications, crafting engaging digital experiences, or providing professional IT training, we approach every project with integrity, passion, and a commitment to excellence. Together, we are not just building projects — we are shaping the future of innovation. 🚀 <br><br>
   
-  <h5 align = "center" > 👥 <strong>Our Leadership Team – Next Innovation Technology (NIT):</strong><br><br> 
+  👥 <strong>Our Leadership Team – Next Innovation Technology (NIT):</strong><br><br> 
   - <strong>Mr. Bibek Kandel</strong> – CEO & Founder,<br>
   - <strong>Mr. Jainul Aliabden</strong> – Founder,<br>
   - <strong>Ms. Sumi Shahi</strong> – Head of Content Creator,<br>
-  - <strong>Ms. Unnati Lamichhane</strong> – Head of Content Creator<br> </h5>
+  - <strong>Ms. Unnati Lamichhane</strong> – Head of Content Creator<br>
 
   
 </h5> 
