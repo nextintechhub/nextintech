@@ -115,6 +115,6 @@ Together, we are not just building projects — we are shaping the future of inn
 
 <p>   </p>
 
-<p align="center">We also offer courses for everyone. For more information, please contact our CEO, Mr. Bibek Kandel, directly via the WhatsApp number provided.<br><br>Thank You for your Patience !!</p>
+<p align="center">We also offer courses for everyone. For more information, please contact our CEO, Mr. Bibek Kandel, directly via the WhatsApp number provided.<br><br>Thank You for your Patience !!</p> <br>
 
 <p>   </p>
