@@ -4,15 +4,16 @@
 
 Together, we are not just building projects — we are shaping the future of innovation, enabling businesses to thrive, and driving the digital transformation that the world needs. 🚀 <br><br>
 
+</h6>
 
-
+<h5>
   👥 <strong>Our Leadership Team – Next Innovation Technology (NIT):</strong><br><br> 
   - <strong>Mr. Bibek Kandel</strong> – CEO & Founder,<br>
   - <strong>Mr. Jainul Aliabden</strong> – Founder,<br>
   - <strong>Ms. Sumi Shahi</strong> – Head of Content Creator,<br>
   - <strong>Ms. Unnati Lamichhane</strong> – Head of Content Creator<br>
-  
-</h6> 
+</h5>
+ 
   
   
   
