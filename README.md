@@ -7,7 +7,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nextintechhub&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-###
+<p>   </p>
 
 <div align="center">
   <a href="https://www.youtube.com/@nextinverse" target="_blank">
@@ -24,7 +24,7 @@
   </a>
 </div>
 
-###
+<p>   </p>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py" height="30" alt="python logo"  />
@@ -38,7 +38,7 @@
   <img src="https://skillicons.dev/icons?i=django" height="30" alt="django logo"  />
 </div>
 
-###
+<p>   </p>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=dynamodb" height="30" alt="amazondynamodb logo"  />
@@ -52,7 +52,7 @@
   <img src="https://skillicons.dev/icons?i=docker" height="30" alt="docker logo"  />
 </div>
 
-###
+<p>   </p>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
@@ -66,7 +66,7 @@
   <img src="https://skillicons.dev/icons?i=java" height="30" alt="java logo"  />
 </div>
 
-###
+<p>   </p>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ps" height="30" alt="adobephotoshop logo"  />
@@ -80,7 +80,7 @@
   <img src="https://cdn.simpleicons.org/canva/00C4CC" height="30" alt="canva logo"  />
 </div>
 
-###
+<p>   </p>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=aws" height="30" alt="amazonwebservices logo"  />
@@ -94,14 +94,14 @@
   <img src="https://skillicons.dev/icons?i=kubernetes" height="30" alt="kubernetes logo"  />
 </div>
 
-###
+<p>   </p>
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=nextintechhub.nextintechhub&"  />
 </div>
 
-###
+<p>   </p>
 
 <p align="center">We also offer courses for everyone. For more information, please contact our CEO, Mr. Bibek Kandel, directly via the WhatsApp number provided.<br><br>Thank You for your Patience !!</p>
 
-###
+<p>   </p>
