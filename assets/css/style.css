@@ -106,11 +106,17 @@ body{
 
 /* alerts */
 .alert{
-  padding:12px 14px; border-radius:12px; margin:10px 0;
-  font-weight:600; text-align:center;
+.alert {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
 }
-.alert.error{background:#ff6b6b;color:white}
-.alert.success{background:#44c27b;color:white}
+.alert.success { background:#4CAF50; color:#fff; }
+.alert.error { background:#ff4d4d; color:#fff; }
+.alert.info { background:#2196F3; color:#fff; }
+}
 
 /* buttons */
 .btn{

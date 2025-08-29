@@ -1,70 +1,64 @@
 <?php
-require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/db.php';  // database connection
 
-$msg = '';
-$ok = false;
+$message = "";
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $token = $_POST['csrf'] ?? '';
-    $email = trim($_POST['email'] ?? '');
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $email = trim($_POST['email']);
 
-    if (!verify_csrf($token)) {
-        $msg = 'Security check failed. Refresh and try again.';
-    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $msg = 'Please enter a valid email.';
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $message = "<div class='error'>❌ Invalid email address</div>";
     } else {
-        $stmt = $mysqli->prepare("SELECT id FROM users WHERE email=?");
+        // Check if user exists
+        $stmt = $conn->prepare("SELECT id FROM users WHERE email=?");
         $stmt->bind_param("s", $email);
         $stmt->execute();
-        $res = $stmt->get_result();
+        $result = $stmt->get_result();
+        $user = $result->fetch_assoc();
 
-        if ($res->num_rows > 0) {
-            // here you would generate a reset token and send an email
-            $msg = 'Password reset link sent to your email (demo only).';
-            $ok = true;
+        if ($user) {
+            $token = bin2hex(random_bytes(16));
+            $expires = date("Y-m-d H:i:s", strtotime("+1 hour"));
+
+            // Insert reset request
+            $stmt = $conn->prepare("INSERT INTO password_resets (user_id, token, expires_at) VALUES (?, ?, ?)");
+            $stmt->bind_param("iss", $user['id'], $token, $expires);
+            $stmt->execute();
+
+            // Normally send an email - here we just show the reset link
+            $resetLink = "http://localhost/nextintech/reset-password.php?token=" . $token;
+            $message = "<div class='success'>✅ Reset link (demo): <a href='$resetLink'>$resetLink</a></div>";
         } else {
-            $msg = 'No account found with that email.';
+            $message = "<div class='error'>❌ No account found with that email</div>";
         }
-        $stmt->close();
     }
 }
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Forgot Password - NextInTech</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <title>Forgot Password</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0b2656; color: white; display:flex; justify-content:center; align-items:center; height:100vh; }
+    .card { background: rgba(255,255,255,0.1); padding:20px; border-radius:8px; width:350px; }
+    .success { background: #4CAF50; padding:10px; margin-bottom:10px; border-radius:5px; }
+    .error { background: #f44336; padding:10px; margin-bottom:10px; border-radius:5px; }
+    input, button { width:100%; padding:10px; margin-top:10px; border:none; border-radius:5px; }
+    button { background:#e6bb91; cursor:pointer; font-weight:bold; }
+    button:hover { background:#d4a97f; }
+  </style>
 </head>
-<body class="bg">
-  <div class="shell">
-    <header class="topbar">
-      <div class="brand">NextInTech</div>
-    </header>
-
-    <main class="card form-card slide-up">
-      <h1 class="title">Reset Password</h1>
-      <p class="subtitle">Enter your email to receive a reset link</p>
-
-      <?php if ($msg): ?>
-        <div class="alert <?php echo $ok ? 'success' : 'error'; ?>"><?php echo h($msg); ?></div>
-      <?php endif; ?>
-
-      <form method="post" class="form" action="">
-        <?php csrf_field(); ?>
-
-        <label class="lbl">Email</label>
-        <input class="field" type="email" name="email" required>
-
-        <div class="form-buttons">
-          <button class="btn btn-primary lg" type="submit">Send Reset Link</button>
-          <a class="btn btn-secondary" href="login.php">Back to Login</a>
-        </div>
-      </form>
-    </main>
+<body>
+  <div class="card">
+    <h2>Forgot Password</h2>
+    <?php echo $message; ?>
+    <form method="POST">
+      <label>Email:</label>
+      <input type="email" name="email" required>
+      <button type="submit">Send Reset Link</button>
+    </form>
+    <p><a href="login.php" style="color:#e6bb91;">⬅ Back to Login</a></p>
   </div>
-
-  <script src="assets/js/app.js"></script>
 </body>
 </html>
