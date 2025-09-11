@@ -4,6 +4,8 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit;
 }
+
+$fullname = $_SESSION['fullname'] ?? 'Guest';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +21,7 @@ if (!isset($_SESSION['user_id'])) {
     </header>
 
     <main class="card form-card slide-up">
-      <h1 class="title">Hello, <?php echo htmlspecialchars($_SESSION['fullname']); ?> 👋</h1>
+      <h1 class="title">Hello, <?php echo htmlspecialchars($fullname); ?> 👋</h1>
       <p class="subtitle">You are now logged in.</p>
       <div class="alert success">Redirecting to homepage...</div>
     </main>
