@@ -47,15 +47,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       display:flex; justify-content:center; align-items:center;
       min-height:100vh;
     }
-    .shell { width:100%; max-width:420px; }
-    .topbar .brand { font-size:22px; font-weight:700; margin-bottom:20px; }
-    .top-right { position:absolute; top:10px; right:10px; }
-    .top-right a {
+    .shell { width:100%; max-width:420px; position:relative; }
+    .topbar { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+    .topbar .brand { font-size:22px; font-weight:700; }
+    .topbar .top-right a {
       font-size:13px; font-weight:500; color:#fff;
       text-decoration:none; background:#e6bb91;
       padding:6px 12px; border-radius:8px; transition:0.3s;
     }
-    .top-right a:hover { background:#d4a97f; color:#000; }
+    .topbar .top-right a:hover { background:#d4a97f; color:#000; }
     .card {
       background:rgba(255,255,255,0.05);
       border-radius:14px;
